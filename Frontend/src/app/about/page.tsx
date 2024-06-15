@@ -1,5 +1,6 @@
 import styles from "./page.module.css";
 import Navbar from "@/components/navbar";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -7,74 +8,107 @@ export default function About() {
       <Navbar />
       <div className={styles.aboutcontainer}>
         <div className={styles.about}>
-          <h2>About</h2>
-          <p>
-            Result-driven Java backend software developer with a strong track
-            record of 3 years, focused on designing, developing, optimizing
-            performance, and maintaining billing and payment systems within
-            Telecom BSS stacks. Dedicated to achieving high-quality outcomes,
-            skilled in effective debugging, and adept at maintaining a smooth
-            coding and personal workflow. Proficient in tailoring solutions to
-            address unique needs. A clear and collaborative communicator with a
-            sincere commitment to task ownership. Enthusiastic about creating
-            clean code that not only performs but is also enjoyable to work
-            with.
-          </p>
+          <div className={styles.about2}>
+            <h2>About</h2>
+            <p>
+              Microsoft Certified Professional having significant years of work
+              experience in Microsoft Azure technology, Kubernetes, Databases,
+              Infrastructure/Systems, Site Reliability, Kafka, Monitoring and
+              Deployment. Experience with Helm Charts,ArgoCD, Powershell and
+              developing tools as well. Strong communication and collaboration
+              skills, with a track record of successful project delivery in
+              fast-paced, agile environments.
+            </p>
+          </div>
+          <Image className={styles.image}
+            src="/devops3.png"
+            alt="Your logo description"
+            width={450}
+            height={300}
+          />
         </div>
+
+        <div className={styles.emptySpace}></div>
+
         <div className={styles.expcontainer}>
+          <h2>Experience</h2>
 
-        <h2>Experience</h2>
-          <h3>Software Engineer @ 6D Technologies</h3>
-          <ul>
-            <li>
-              Exceeded SLA expectations by significantly accelerating billing
-              core systems to handle bill-runs ,settlements and financial
-              management for millions of simultaneous services.
-            </li>
-            <li>
-              Collaborated with cross-functional teams to design, develop, and
-              maintain Java-based backend systems for billing and payment
-              functionalities within the BSS stack.
-            </li>
-            <li>
-              Played a key role in the full software development lifecycle, from
-              requirements analysis to implementation, testing, and deployment.
-            </li>
-            <li>
-              Utilized strong debugging skills to identify and resolve complex
-              issues, ensuring seamless operation of critical invoicing/payment
-              processes.
-            </li>
-            <li>
-              Demonstrated a commitment to code quality through rigorous code
-              reviews and adherence to best practices.
-            </li>
-            <li>
-              Mentored junior developers, fostering their growth and ensuring
-              they achieved project goals.
-            </li>
-            <li>
-              Engineered libraries enabling micro-services to dynamically
-              distribute load across databases, facilitating seamless system
-              scalability.
-            </li>
-            <li>
-              Engineered libraries enabling simple REST APIs to be configured
-              instead of going through development lifecycle.
-            </li>
-            <li>
-              Established development environments, containerized multiple
-              microservices, and orchestrated their deployment within a
-              Kubernetes/open-shift architecture.
-            </li>
-            <li>
-              Performed Vulnerability testing , performance testing and fixes
-              ensuring security ,reliability and improved system performance
-              across many micro-services.
-            </li>
-            <li>Performed core technology upgrades and migrations.</li>
-          </ul>
+          <div className={styles.experienceCompany}>
+            <div className={styles.experienceDesc}>
+              <h3>Cloud Engineer</h3>
+              <h4>IBM</h4>
+            </div>
+            <ul>
+              <li>
+                Monitored and optimized system performance, ensuring system
+                availability and reliability of OpenShift platform
+              </li>
+              <li>
+                Designing and building the underlying infrastructure, such as
+                servers, networks, and storage systems, that support the
+                software applications and services.
+              </li>
+              <li>
+                Worked in Kubernetes and implemented GitOps practices using Helm
+                Charts
+              </li>
+              <li>
+                Developing and managing the tools and services necessary for
+                continuous integration, continuous delivery, and deployment
+                automation.
+              </li>
+            </ul>
+          </div>
 
+          <div className={styles.experienceCompany}>
+            <div className={styles.experienceDesc}>
+              <h3>Senior Systems Engineer</h3>
+              <h4>RM ESI Pvt Ltd</h4>
+            </div>
+            <ul>
+              <li>
+                Managing the platform’s lifecycle, including installs, upgrades,
+                patching, and retirement
+              </li>
+              <li>Automate tasks using Powershell and Python and C#</li>
+              <li>
+                Familiarity in integration of heterogenous services in a hybrid
+                environment
+              </li>
+              <li>
+                Managed Docker Orchestration and Docker Containerization using
+                Kubernetes, Openshift etc
+              </li>
+              <li>
+                Worked in Kubernetes and implemented GitOps practices using Helm
+                Charts.
+              </li>
+            </ul>
+          </div>
+
+          <div className={styles.experienceCompany}>
+            <div className={styles.experienceDesc}>
+              <h3>SDE - 1 </h3>
+              <h4>Carestack (Good Methods Global)</h4>
+            </div>
+            <ul>
+              <li>
+                Collaborating with software development teams t to help them
+                build and deploy their services on the platform
+              </li>
+              <li>
+                Designing and building the underlying infrastructure, such as
+                servers, networks, and storage systems, that support the
+                software applications and services.
+              </li>
+              <li>
+                Defining and implementing the best practices for system
+                configuration, health check monitoring, and performance
+                optimization (using Azure Alerts,Graphana,Redgate).
+              </li>
+              <li>Incidence management and root cause analysis</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

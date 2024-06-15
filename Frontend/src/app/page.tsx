@@ -12,13 +12,15 @@ export default function Home() {
       <div className={styles.container}>
       <div className={styles.emptydiv}>
 
-      <Image src="/dev2.png" alt="Your logo description" width={627} height={585} />
+      <Image src="/devopsgif2.gif" alt="Your logo description" width={550} height={500} />
         
       </div>
         <div className={styles.textcontainer}>
           <div className={styles.heroContent}>
-            <h2>Crafting Exceptional Backend Systems</h2>
-            <p>Delivering scalable, high-performance backend systems designed with cutting-edge tools and industry standards. Empowering your projects with reliable, efficient, and future-ready solutions.</p>
+            <h2>DevOps & SRE Specialist :</h2>
+            <h3>Building resilient systems</h3>
+            <p>With a strong foundation in continuous integration/continuous deployment (CI/CD) pipelines, cloud infrastructure, and monitoring tools, I thrive in fast-paced environments where precision and reliability are paramount. My proactive approach to problem-solving and my commitment to best practices in DevOps enable me to deliver solutions that not only meet but exceed organizational goals.
+            Let's work together to build resilient systems that stand the test of time.</p>
 
             <Button label="Learn more" link="/about"/>
 

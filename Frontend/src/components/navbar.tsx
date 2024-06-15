@@ -6,7 +6,7 @@ import LogoImage from "./logo.svg";
 const Navbar = () => {
   return (
     <nav className={styles.navbar}>
-      <Link href="/">SAMIN TEJAS</Link>
+      <Link href="/">ABHISKEK KARTHA</Link>
       <ul>
         <li>
           <Link href="/about">About</Link>
