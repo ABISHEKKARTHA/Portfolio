@@ -1,12 +1,11 @@
 import React from "react";
 import Link from "next/link";
 import styles from "./navbar.module.css";
-import LogoImage from "./logo.svg";
 
 const Navbar = () => {
   return (
     <nav className={styles.navbar}>
-      <Link href="/">ABHISKEK KARTHA</Link>
+      <Link href="/">ABISHEK V KARTHA</Link>
       <ul>
         <li>
           <Link href="/about">About</Link>
