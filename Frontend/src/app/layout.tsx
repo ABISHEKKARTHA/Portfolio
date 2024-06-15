@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
        <head>
-        <title>Abhishek Kartha</title>
+        <title>Abishek V Kartha</title>
         <meta name="description" content="Welcome to my portfolio website. Here you can find my projects and contact information." />
         <meta name="keywords" content="portfolio, projects, contact" />
         <meta name="author" content="Samin Tejas" />
