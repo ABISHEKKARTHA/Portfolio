@@ -12,7 +12,7 @@ export default function Home() {
       <div className={styles.container}>
       <div className={styles.emptydiv}>
 
-      <Image src="/devopsgif2.gif" alt="Your logo description" width={550} height={500} />
+      <Image src="/devopsgif2.gif" alt="Your logo description" width={550} height={550} />
         
       </div>
         <div className={styles.textcontainer}>
