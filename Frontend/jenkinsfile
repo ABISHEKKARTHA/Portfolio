@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 script {
-                    def app = docker.build("yourusername/portfolio:latest")
+                    def app = docker.build("abishekkartha/portfolio:latest")
                 }
             }
         }
